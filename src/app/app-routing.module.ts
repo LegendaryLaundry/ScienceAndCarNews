@@ -4,7 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { AutomobileComponent } from './automobile/automobile.component';
 
 const routes: Routes = [
-  {path: 'science', component: HeaderComponent},
+  {path: '', component: HeaderComponent},
   {path: 'automobile', component: AutomobileComponent},
 ];
 
