@@ -1,0 +1,17 @@
+<div className="imageBackground">
+<div className="container">
+    
+    <div className="row">
+
+        <div *ngFor="let a of automobileDisplay" class="col-lg-3">
+
+            <h4>{{a.title}} </h4> 
+            <h6>{{a.date}}</h6>
+            <img src="{{a.imageUrl}}" width="300" height="200">
+            <p>{{a.content}}</p>
+            <p>By {{a.author}}</p>
+            <a href="{{a.readMoreUrl}}">Read More</a>
+           
+        </div>
+</div>
+</div>
