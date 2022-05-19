@@ -9,7 +9,7 @@ export class NewsAPIService {
 
   constructor(private _http: HttpClient) { }
 
-  newsApiUrl = "https://inshortsapi.vercel.app/news?category=science";
+  newsApiUrl = "https://inshorts.deta.dev/news?category=science";
 
 
   header():Observable<any> {

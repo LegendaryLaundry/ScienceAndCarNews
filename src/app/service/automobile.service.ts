@@ -9,7 +9,8 @@ export class AutomobileAPIService {
 
   constructor(private _http: HttpClient) { }
 
-  automobileApiUrl = "https://inshortsapi.vercel.app/news?category=automobile";
+  automobileApiUrl = "https://inshorts.deta.dev/news?category=automobile";
+ 
 
 
   header():Observable<any> {
